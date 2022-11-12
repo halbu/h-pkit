@@ -1,0 +1,26 @@
+{
+  "name": "h-pkit",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/cjs/hpkit.js",
+  "module": "./dist/esm/hpkit.js",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/hpkit.js",
+      "require": "./dist/cjs/hpkit.js"
+    }
+  },
+  "types": "./dist/esm/hpkit.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "bench": "npm run build && node test/test.js",
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
