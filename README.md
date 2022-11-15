@@ -1,7 +1,7 @@
 # h-pkit
 
 ## Overview
-Fast, small, low-effort, zero-dependency pathfinding kit for 2D square-grid maps
+Fast, small, low-effort, zero-dependency pathfinding kit for 2D square-grid maps. Try an interactive demo [here](https://halbu.github.io/h-pkit-demo)
 
 ## More verbose overview
 `h-pkit` (**h**albu's **p**athfinding **kit**) is a Typescript pathfinding library. It implements the [A* pathfinding algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm), allows for considerable customisation, and supplements it with some nice-to-have extensions (preference for line-of-sight pathing where possible, multi-pass string-pulling algorithm for path smoothing and naturalisation). It is intended for use in any game, simulation or other application that models space with a two-dimensional grid.
