@@ -20,7 +20,7 @@ The first four parameters are origin XY and goal XY. The fifth parameter is the 
 `h-pkit` is distributed as a hybrid module for both ESM and CJS. Install with `npm i h-pkit` and then either import or require it, whichever you prefer.
 
   * `import { HPKit } from 'h-pkit';`
-  * `let { HPKit } = require('hpkit');`
+  * `let { HPKit } = require('h-pkit');`
 
 ## Configuration
 `h-pkit` exposes methods for configuring heuristics, movement weights, limits and convenience functionality:
